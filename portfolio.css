@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body{
+	background-image: url(foto1.jpg);
+	background-position: center center;
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: inherit;
+	width: 100%;
+	max-height: 200px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#logo{
+	margin-left: 100px;
+	border-image-slice: 100%;	
+}
+
+header{
+	background-color: rgba(0,0,0,0.6);
+}
+
+#menu{
+	float: right;
+	margin-right: 100px;
+}
+
+li{
+	display: inline;
+	margin-left: 30px;
+	padding: 0 0 7px 0;
+	color: #ffffff;
+	font-size: 14px;
+	cursor: pointer;
+	line-height: 97px;	
+}
+
+#slogan{
+	text-align: center;
+	/*width: 500px;*/
+	color: #fff;
+	background-color: rgba(0,0,0,0.4); 
+	margin-top: 150px;
+	padding: 5px 0;
+}
+/* en la parte del slogan mi deseo es que el fondo se ajuste
+al ancho del texto, pero desconozco si se puede, probé.. pero nada*/
+
+
+#container{
+	background-color: #ccc;
+	object-position: 500px;
+}
+
+/*aca piso la foto, no encuentro la logica para que quede abajo y crear una
+caja de color como se la idea de la maqueta, sin aclarar eso no puedo avanzar
+me queda en horizontal y pisando la foto :(*/
+
+p{
+	font-size: 14px;
+	color: #000;
+	float: left; 
+	margin-left: 100px;	
+}
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
