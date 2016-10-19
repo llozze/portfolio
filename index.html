@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>PRUEBA 3 PORTFOLIO</title>
-	<link rel="stylesheet" type="text/css" href="portfolio.css">
+	<link rel="stylesheet" type="text/css" href="prueba3.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
@@ -14,10 +14,11 @@
 	<header>
 		<h2><a class="link" href="#">RC Design</a></h2>
 		<nav>
-			<li><a class="link" href="#">HOME</a></li>
-			<li><a class="link" href="#">SERVICES</a></li>
-			<li><a class="link" href="#">ABOUT</a></li>
-			<li><a class="link" href="#">CONTACT</a></li>
+			<li><a class="link" href="#section.hero">HOME</a></li>
+			<li><a class="link" href="#section.features">SERVICES</a></li>
+			<li><a class="link" href="#section.works">PORTFOLIO</a></li>
+			<li><a class="link" href="#section.about">ABOUT</a></li>
+			<li><a class="link" href="#section.contact">CONTACT</a></li>
 		</nav>
 	</header>
 
@@ -67,6 +68,15 @@
 		<h3 class="title">PORTFOLIO</h3>
 		<p>orem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
 		<hr>
+
+		 	<nav id="filter" class="col-md-12 text-center">
+                 <ul>
+                     <li><a href="#filter" class="current btn-theme btn-small" data-filter="*">All</a></li>
+                     <li><a href="#filter"  class="btn-theme btn-small" data-filter=".webdesign" >Brand</a></li>
+                     <li><a href="#filter"  class="btn-theme btn-small" data-filter=".photography">Photography</a></li>
+                     <li ><a href="#filter" class="btn-theme btn-small" data-filter=".print">Print</a></li>
+                 </ul>
+             </nav>
 
 		<ul class="grid">
 			<li class="small" style="background-image: url(img1.jpg);"></li>
@@ -142,6 +152,7 @@
 
 	<footer class="copyright">
 		<p>Copyright &copy;RC Design 2016 | designer by Rosita Clavijo Moya</p>
+		<a href="#" class="back-to-top"><i class="fa fa-long-arrow-up"></i></a>
 	</footer>
 
 </html>
